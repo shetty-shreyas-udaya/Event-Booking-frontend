@@ -25,7 +25,6 @@ This project is designed as a **portfolio-ready demo** to showcase your ability 
 🔹 **Frontend:** *https://event-booking-frontend-omega.vercel.app/*
 🔹 **Backend API:** *https://event-booking-backend-fas0.onrender.com/*
 
-> After hosting, replace these URLs.
 
 ---
 
@@ -91,8 +90,6 @@ This project is designed as a **portfolio-ready demo** to showcase your ability 
 
 ## 🖼 Screenshots
 
-Add images later by dragging them into GitHub:
-
 ```
 ![Home Page](assets/home.png)
 ![Login](assets/login.png)
@@ -154,7 +151,7 @@ Add images later by dragging them into GitHub:
 ### **Cloud/Tools**
 
 * Render (Backend)
-* Netlify / Vercel (Frontend)
+* Vercel (Frontend)
 
 ---
 
@@ -196,7 +193,7 @@ Set environment variables:
 * `JWT_SECRET`
 * `FRONTEND_URL`
 
-### Frontend (Netlify / Vercel)
+### Frontend (Vercel)
 
 Set:
 
