@@ -1,0 +1,40 @@
+.my-bookings-card {
+  background: #eef4fd;
+  border-radius: 8px;
+  padding: 1.6rem 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px rgba(37, 54, 145, 0.07);
+  max-width: 550px;
+}
+
+.my-bookings-card h2 {
+  margin-top: 0;
+  font-weight: 600;
+  color: #3360a4;
+}
+
+.my-bookings-card ul {
+  margin: 0;
+  padding-left: 1.2em;
+}
+
+.my-bookings-card li {
+  margin-bottom: 0.5em;
+  font-size: 1rem;
+}
+
+.my-bookings-card button {
+  background: #e64980;
+  color: #fff;
+  margin-top: 1em;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6em 2em;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.16s;
+}
+.my-bookings-card button:hover {
+  background: #b93563;
+}

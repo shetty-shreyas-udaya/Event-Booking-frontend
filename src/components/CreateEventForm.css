@@ -1,0 +1,48 @@
+.create-event-form {
+  background: #f5f2ff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px rgba(120,82,255,0.07);
+  max-width: 500px;
+}
+
+.create-event-form input,
+.create-event-form textarea {
+  width: 100%;
+  padding: 0.65rem;
+  margin-bottom: 1rem;
+  border: 1px solid #b1aaff;
+  border-radius: 6px;
+  font-size: 1rem;
+  background: #faf8ff;
+  box-sizing: border-box;
+  transition: border-color 0.2s;
+}
+
+.create-event-form input[type="number"] {
+  appearance: textfield;
+}
+
+.create-event-form input:focus,
+.create-event-form textarea:focus {
+  border-color: #7e57c2;
+  outline: none;
+}
+
+.create-event-form button {
+  padding: 0.55rem 1.2rem;
+  background: #7e57c2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.18s;
+}
+
+.create-event-form button:hover,
+.create-event-form button:focus {
+  background: #5633a6;
+}

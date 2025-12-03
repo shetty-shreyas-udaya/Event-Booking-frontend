@@ -1,0 +1,97 @@
+.event-list {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: flex-start;
+}
+
+/* Card-style, side-by-side event blocks */
+.event-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(60, 120, 200, 0.08);
+  padding: 1.2rem 1.5rem;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.2s, background 0.2s, color 0.2s;
+}
+
+.admin-bg .event-card {
+  background: #33225a;
+  color: #fff;
+  border-color: #473b8b;
+}
+.event-card:hover {
+  box-shadow: 0 6px 24px rgba(60, 120, 200, 0.15);
+  background: #f5f8fc;
+}
+.admin-bg .event-card:hover {
+  background: #472388;
+}
+
+.event-title {
+  font-size: 1.18rem;
+  font-weight: 600;
+  color: inherit;
+  margin-bottom: 0.3rem;
+}
+
+.event-date,
+.event-location {
+  font-size: 0.99rem;
+  margin-bottom: 0.1rem;
+  color: inherit;
+}
+
+.event-location {
+  margin-bottom: 0.4rem;
+}
+
+.event-description {
+  flex: 1;
+  font-size: 0.97rem;
+  margin-bottom: 0.5rem;
+  color: inherit;
+}
+
+/* Book Button */
+.book-btn {
+  background: #1976d2;
+  color: #fff;
+  padding: 0.5em 1.2em;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-right: 0.6em;
+  cursor: pointer;
+  transition: background 0.16s;
+}
+.book-btn:disabled {
+  background: #aaa;
+  color: #eee;
+  cursor: default;
+}
+.book-btn:hover:enabled {
+  background: #125ea2;
+}
+
+/* Delete Button */
+.delete-btn {
+  background: #e74c3c;
+  color: #fff;
+  padding: 0.5em 1.2em;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 0.8em;
+  transition: background 0.16s;
+}
+.delete-btn:hover {
+  background: #c0392b;
+}
