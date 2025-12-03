@@ -14,7 +14,7 @@ A complete **full-stack Event Booking platform** featuring:
 🛡️ Admin event management
 🔐 JWT authentication
 🚦 Rate limiting
-🌐 Fully deployable on Render / Netlify
+🌐 Fully deployable on Render & Vercel.
 
 This project is designed as a **portfolio-ready demo** to showcase your ability to build a real application end-to-end using **React + Java Spring Boot**.
 
@@ -22,8 +22,8 @@ This project is designed as a **portfolio-ready demo** to showcase your ability 
 
 ## 🌍 Live Demo
 
-🔹 **Frontend:** *Add link here*
-🔹 **Backend API:** *Add link here*
+🔹 **Frontend:** *https://event-booking-frontend-omega.vercel.app/*
+🔹 **Backend API:** *https://event-booking-backend-fas0.onrender.com/*
 
 > After hosting, replace these URLs.
 
@@ -163,7 +163,7 @@ Add images later by dragging them into GitHub:
 ### Backend
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/event-booking-backend.git
+git clone https://github.com/shetty-shreyas-udaya/Event-Booking-backend.git
 cd event-booking-backend
 mvn clean package
 
@@ -175,7 +175,7 @@ java -jar target/*.jar
 ### Frontend
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/event-booking-frontend.git
+git clone https://github.com/shetty-shreyas-udaya/Event-Booking-frontend.git
 cd event-booking-frontend
 npm install
 
@@ -212,7 +212,7 @@ REACT_APP_API_URL=https://your-backend-url/api
   Check `FRONTEND_URL` on backend config.
 
 * **Events not updating?**
-  Backend might be sleeping (Render free tier).
+  Backend might be sleeping.
 
 * **Duplicate event names?**
   Event names must be unique.
