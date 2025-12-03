@@ -1,70 +1,237 @@
-# Getting Started with Create React App
+# 🚀 Event Booking App – Fullstack Project (React + Spring Boot)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Backend-SpringBoot-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Auth-JWT-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Database-InMemory-lightgrey?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/RateLimit-Bucket4j-purple?style=for-the-badge" />
+</p>
 
-## Available Scripts
+A complete **full-stack Event Booking platform** featuring:
 
-In the project directory, you can run:
+🎟️ User booking workflow
+🛡️ Admin event management
+🔐 JWT authentication
+🚦 Rate limiting
+🌐 Fully deployable on Render / Netlify
 
-### `npm start`
+This project is designed as a **portfolio-ready demo** to showcase your ability to build a real application end-to-end using **React + Java Spring Boot**.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🌍 Live Demo
 
-### `npm test`
+🔹 **Frontend:** *Add link here*
+🔹 **Backend API:** *Add link here*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> After hosting, replace these URLs.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ✨ Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 👨‍💼 User Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+✔ Login as user
+✔ View all available events
+✔ Book any event with remaining seats
+✔ “Already Booked” prevention
+✔ View *My Bookings*
+✔ Clear all bookings (seats restored automatically)
 
-### `npm run eject`
+### 🛠 Admin Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+✔ Toggle admin mode with one click
+✔ Password-only admin login
+✔ Create new events
+✔ Delete existing events
+✔ Reset all events (demo reset)
+✔ Real-time updates reflected on UI
+✔ Admin components disabled if backend is offline
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🧱 Architecture Overview
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+                ┌─────────────────┐
+                │   React Frontend │
+                │  (Netlify/Vercel)│
+                └───────▲─────────┘
+                        │
+                        │ REST API Calls
+                        │
+                ┌───────┴─────────┐
+                │ Spring Boot API  │
+                │   (Render Java)  │
+                ├──────────────────┤
+                │ JWT Auth         │
+                │ Rate Limiting    │
+                │ Event/Booking API│
+                └───────▲─────────┘
+                        │
+                ┌───────┴─────────┐
+                │  In-Memory Store │
+                │ Events/Bookings  │
+                └──────────────────┘
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 👥 Demo Credentials
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Role       | Username | Password |
+| ---------- | -------- | -------- |
+| **Admin**  | admin    | admin1   |
+| **User 1** | user1    | user1    |
+| **User 2** | user2    | user2    |
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🖼 Screenshots
 
-### Analyzing the Bundle Size
+Add images later by dragging them into GitHub:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+![Home Page](assets/home.png)
+![Login](assets/login.png)
+![Admin Dashboard](assets/admin.png)
+![My Bookings](assets/bookings.png)
+```
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## ⚡ Quick Start (For Recruiters)
 
-### Advanced Configuration
+### 🔹 User Demo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Login → `user1 / user1`
+2. Book an event
+3. Check “My Bookings”
+4. Clear bookings
 
-### Deployment
+### 🔹 Admin Demo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+1. Toggle Admin Mode
+2. Enter password → `admin1`
+3. Create/Delete events
+4. Reset demo events
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🧪 API Overview (Backend)
+
+| Method | Endpoint             | Description        | Auth    |
+| ------ | -------------------- | ------------------ | ------- |
+| POST   | `/api/login`         | Login, returns JWT | ❌       |
+| GET    | `/api/events`        | Get all events     | ❌       |
+| POST   | `/api/events`        | Create event       | ✔ Admin |
+| DELETE | `/api/events/{id}`   | Delete event       | ✔ Admin |
+| POST   | `/api/reset-events`  | Reset events       | ✔ Admin |
+| GET    | `/api/bookings`      | My bookings        | ✔ User  |
+| POST   | `/api/bookings`      | Book event         | ✔ User  |
+| DELETE | `/api/bookings/mine` | Clear bookings     | ✔ User  |
+
+---
+
+## 🛠 Tech Stack
+
+### **Frontend**
+
+* React.js
+* Fetch API
+* CSS
+
+### **Backend**
+
+* Java 17+
+* Spring Boot 3.x
+* JWT Authentication
+* Bucket4j Rate Limiting
+* In-memory store (Events + Bookings)
+
+### **Cloud/Tools**
+
+* Render (Backend)
+* Netlify / Vercel (Frontend)
+
+---
+
+## 🧰 Local Setup
+
+### Backend
+
+```bash
+git clone https://github.com/YOUR-USERNAME/event-booking-backend.git
+cd event-booking-backend
+mvn clean package
+
+# Run
+JWT_SECRET=yoursecret FRONTEND_URL=http://localhost:3000 \
+java -jar target/*.jar
+```
+
+### Frontend
+
+```bash
+git clone https://github.com/YOUR-USERNAME/event-booking-frontend.git
+cd event-booking-frontend
+npm install
+
+# .env
+REACT_APP_API_URL=http://localhost:8080/api
+
+npm start
+```
+
+---
+
+## 🌐 Deployment
+
+### Backend (Render)
+
+Set environment variables:
+
+* `JWT_SECRET`
+* `FRONTEND_URL`
+
+### Frontend (Netlify / Vercel)
+
+Set:
+
+```
+REACT_APP_API_URL=https://your-backend-url/api
+```
+
+---
+
+## ❓ Troubleshooting
+
+* **CORS errors?**
+  Check `FRONTEND_URL` on backend config.
+
+* **Events not updating?**
+  Backend might be sleeping (Render free tier).
+
+* **Duplicate event names?**
+  Event names must be unique.
+
+---
+
+## 📄 License
+
+MIT (or anything you choose)
+
+---
+
+# 🎉 Done!
+
+If you want, I can:
+
+✅ Turn this into a **downloadable README.md file**
+✅ Add your **project logo**
+✅ Add **GIF demo recordings**
+✅ Add **badges (build, deploy, languages, lines of code)**
+
+Just tell me!
