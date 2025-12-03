@@ -24,7 +24,7 @@ This project is designed as a **portfolio-ready demo** to showcase your ability 
 
 🔹 **Frontend:** *https://event-booking-frontend-omega.vercel.app/*
 🔹 **Backend API:** *https://event-booking-backend-fas0.onrender.com/*
-
+🔹 **Backend Code:** *https://github.com/shetty-shreyas-udaya/Event-Booking-backend*
 
 ---
 
