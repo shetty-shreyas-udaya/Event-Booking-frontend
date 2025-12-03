@@ -88,17 +88,6 @@ This project is designed as a **portfolio-ready demo** to showcase your ability 
 
 ---
 
-## 🖼 Screenshots
-
-```
-![Home Page](assets/home.png)
-![Login](assets/login.png)
-![Admin Dashboard](assets/admin.png)
-![My Bookings](assets/bookings.png)
-```
-
----
-
 ## ⚡ Quick Start (For Recruiters)
 
 ### 🔹 User Demo
