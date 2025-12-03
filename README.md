@@ -221,17 +221,5 @@ REACT_APP_API_URL=https://your-backend-url/api
 
 ## 📄 License
 
-MIT (or anything you choose)
-
----
-
-# 🎉 Done!
-
-If you want, I can:
-
-✅ Turn this into a **downloadable README.md file**
-✅ Add your **project logo**
-✅ Add **GIF demo recordings**
-✅ Add **badges (build, deploy, languages, lines of code)**
-
-Just tell me!
+This project is licensed under the MIT License.  
+See the [LICENSE](./LICENSE) file for more details.
